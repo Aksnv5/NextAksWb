@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;    /* Выравнивание элементов по центру горизонтально */
+    justify-content: center; /* Выравнивание элементов по центру вертикально */
+    background: linear-gradient(180deg, #6E4AFF 0%, #CCBFFF 100%);
+    width: 100vw;
+    height: 100vh;
+
+  }
+  
+
+.screen{
+        width: 70vw;
+        height: 100vh;
+
+  }
+

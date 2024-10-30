@@ -1,0 +1,62 @@
+.menu-left {
+    /* padding: 10px; */
+    
+    background-color: #1A1818;
+    /* margin: 5px 0; */
+    margin-right: auto; /* Прижать элемент к левому краю */
+    width: 30vw;
+    height: 100vh;
+    border-radius: 0px 25px 25px 0px;
+
+  }
+
+  .icon-aks{
+    width: auto;
+    height: auto;   
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    align-items: center;    /* Выравнивание по центру по горизонтали */
+    justify-content: center; /* Выравнивание по центру по вертикали */
+    text-align: center;     /* Центрирование текста */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between; /* Равномерное распределение элементов */
+    align-items: center;    /* Центрирование по вертикали */
+    padding: 15px;
+    cursor: pointer;        /* Курсор "рука" при наведении */
+    transition: background-color 0.3s; /* Плавный переход фона */
+  }
+  
+
+.menu-item img {
+    margin-left: 20px;
+    width: 50px;            /* Ширина изображения */
+    height: 50px;           /* Высота изображения */
+    margin-right: 10px;     /* Отступ между изображением и текстом */
+  }
+  
+.menu-item:hover {
+    background-color: rgba(228, 146, 237, 0.732); /* Серый фон при наведении */
+    border-radius: 0px 25px 25px 0px;
+
+  }
+  
+.menu-item-text {
+    font-size: 20px;
+    flex-grow: 1;           /* Позволяет тексту занимать доступное пространство */
+    text-align: left;       /* Выравнивание текста по левому краю */
+    color: lightgray;
+  }

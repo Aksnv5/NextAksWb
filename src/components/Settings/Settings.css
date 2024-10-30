@@ -1,0 +1,62 @@
+
+
+.screen-settings {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    text-align: center;     /* Центрирование текста */
+    height: 100vh;          /* Занять всю высоту экрана */
+    flex-grow: 1;            /* Контент будет занимать оставшееся пространство */
+    margin-left: 0;          /* Убираем отступы */
+    /* padding: 20px;           Добавляем отступы для контента. */
+}
+
+.screen-settings h1 {
+    color: #ffffff;
+}
+
+.container-api-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 20px;
+    width: 800px;
+    height: 420px;
+    background-color: #D9D9D9;
+    border-radius: 10px;  /* Закругленные углы */
+    padding: 20px;        /* Отступы для контента внутри контейнера */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для контейнера */
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    margin-bottom: 15px;    /* Отступ между полями ввода */
+    width: 100%;            /* Занимает всю ширину */
+    max-width: 400px;      /* Максимальная ширина поля ввода */
+}
+
+.label {
+    margin-bottom: 5px; /* Отступ между подписью и инпутом */
+}
+
+input {
+    padding: 10px;       /* Отступ внутри инпута */
+    border: 1px solid #ccc; /* Граница инпута */
+    border-radius: 4px;  /* Закругленные углы */
+}
+
+.add-button {
+    padding: 10px 20px;   /* Отступы внутри кнопки */
+    background-color: #007BFF; /* Цвет фона кнопки */
+    color: white;          /* Цвет текста кнопки */
+    border: none;          /* Убираем границы */
+    border-radius: 4px;   /* Закругленные углы */
+    cursor: pointer;       /* Курсор при наведении */
+}
+
+.add-button:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}

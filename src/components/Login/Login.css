@@ -1,0 +1,100 @@
+.container-login{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    /* Выравнивание элементов по центру горизонтально */
+    justify-content: center; /* Выравнивание элементов по центру вертикально */
+    background: linear-gradient(180deg, #6E4AFF 0%, #CCBFFF 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Блок для логин формы */
+.login-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Заголовок формы логина */
+.login-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Форматирование полей формы */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Группы элементов формы */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Метки полей формы */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Поля ввода */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Поля ввода при фокусе */
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Сообщение об ошибке */
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Стиль кнопок */
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+/* Кнопка "Login" */
+.btn-login {
+    background-color: #007bff;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* Кнопка "Register" */
+.btn-register {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Кнопки при наведении */
+.btn:hover {
+    opacity: 0.9;
+}

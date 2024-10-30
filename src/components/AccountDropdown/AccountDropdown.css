@@ -1,0 +1,33 @@
+.account-dropdown {
+    position: flex; /* Позиционирование для выпадающего списка */
+    display: inline-block; /* Для отображения списка в строке */
+    cursor: pointer; /* Указатель для наведения */
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-account {
+    padding: 10px; /* Отступы для активного аккаунта */
+    background-color: #D9D9D9; /* Цвет фона */
+    border-radius: 5px; /* Закругление углов */
+}
+
+.dropdown-list {
+    position: absolute; /* Абсолютное позиционирование */
+    background-color: #fff; /* Цвет фона выпадающего списка */
+    border: 1px solid #ccc; /* Рамка выпадающего списка */
+    border-radius: 5px; /* Закругление углов */
+    margin-top: 5px; /* Отступ сверху */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Тень для выпадающего списка */
+    z-index: 1000; /* Убедитесь, что выпадающий список над другими элементами */
+}
+
+.dropdown-item {
+    padding: 10px; /* Отступы для каждого элемента списка */
+    cursor: pointer; /* Указатель для наведения */
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Цвет фона при наведении */
+}

@@ -1,0 +1,129 @@
+/* Стили для контейнера списка продуктов */
+.product-list-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60vw;
+    height: 900px; /* Фиксированная высота контейнера */
+    overflow-y: auto; /* Вертикальная прокрутка, если много товаров */
+}
+
+/* Стили для вкладок */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+    background-color: #0056b3;
+}
+
+.tabs button.active {
+    background-color: #0056b3; /* Цвет активной вкладки */
+    font-weight: bold;
+}
+
+/* Фильтры размещены в ряд */
+.filter-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center; /* Центрируем блоки товаров */
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.filter input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* Кнопка загрузки товаров */
+.load-products-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.load-products-button:disabled {
+    background-color: #ccc;
+}
+
+/* Контейнер товаров */
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрируем блоки товаров */
+    gap: 20px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+}
+
+.product-item img {
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;       /* Текст будет отображаться в одну строку */
+    overflow: hidden;          /* Скрываем выходящий за границы текст */
+    text-overflow: ellipsis;   /* Добавляем многоточие в конце обрезанного текста */
+    max-width: 200px;          /* Ограничиваем максимальную ширину блока */
+}
+
+/* Кнопка переключения статуса товара */
+.toggle-status-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-status-button:disabled {
+    background-color: #ccc;
+}

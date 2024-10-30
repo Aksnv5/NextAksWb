@@ -1,0 +1,104 @@
+/* Основной контейнер для регистрации */
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Блок для формы регистрации */
+.register-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Заголовок формы регистрации */
+.register-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Форматирование полей формы */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Группы элементов формы */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Метки полей формы */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Поля ввода */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Поля ввода при фокусе */
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Сообщение об ошибке */
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Сообщение об успешной регистрации */
+.success-text {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Стиль кнопок */
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+/* Кнопка "Register" */
+.btn-register {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Кнопки при наведении */
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-login {
+    background-color: #007bff;
+    color: #fff;
+}

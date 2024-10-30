@@ -1,0 +1,18 @@
+
+
+.screen {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    text-align: center;     /* Центрирование текста */
+    height: 100vh;          /* Занять всю высоту экрана */
+    flex-grow: 1;            /* Контент будет занимать оставшееся пространство */
+    margin-left: 0;          /* Убираем отступы */
+    /* padding: 20px;           Добавляем отступы для контента. */
+}
+
+
+.screen h1{
+    color: rgb(255, 255, 255);
+}
