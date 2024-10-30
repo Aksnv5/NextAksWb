@@ -14,7 +14,7 @@ const Register = () => {
     const handleRegister = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:8000/register", {
+            const response = await axios.post("http://95.217.82.119:8000/register", {
                 username: username,
                 password: password,
                 email: email,

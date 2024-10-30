@@ -18,7 +18,7 @@ const Settings = () => {
 
         try {
             const response = await axios.post(
-                'http://localhost:8000/accounts', // Замените на ваш URL
+                'http://95.217.82.119:8000/accounts', // Замените на ваш URL
                 {
                     account_name: nameApi,
                     api_key: apiKey,

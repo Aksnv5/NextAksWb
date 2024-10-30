@@ -20,7 +20,7 @@ const AccountDropdown = () => {
                 const token = localStorage.getItem('token');
                 console.log('Токен:', token); // Проверяем, что токен существует
 
-                const response = await axios.get('http://localhost:8000/accounts', {
+                const response = await axios.get('http://95.217.82.119:8000/accounts', {
                     headers: {
                         Authorization: `Bearer ${token}` // Добавляем токен в заголовок
                     },

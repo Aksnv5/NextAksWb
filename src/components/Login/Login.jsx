@@ -12,7 +12,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:8000/token", {
+            const response = await axios.post("http://95.217.82.119:8000/token", {
                 username: username,
                 password: password,
             }, {

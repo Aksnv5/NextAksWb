@@ -21,7 +21,7 @@ const ProductList = ({ accountId }) => {
 
         try {
             setLoading(true);
-            const response = await axios.get(`http://localhost:8000/products?account_id=${activeAccountId}`, {
+            const response = await axios.get(`http://95.217.82.119:8000/products?account_id=${activeAccountId}`, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
@@ -43,7 +43,7 @@ const ProductList = ({ accountId }) => {
         setSuccessMessage('');
 
         try {
-            const response = await axios.post(`http://localhost:8000/load-products?account_id=${activeAccountId}`, {}, {
+            const response = await axios.post(`http://95.217.82.119:8000/load-products?account_id=${activeAccountId}`, {}, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
@@ -101,7 +101,7 @@ const ProductList = ({ accountId }) => {
             const product = filteredProducts.find(p => p.nmId === nmId);
             const newStatus = product.status === 'active' ? 'inactive' : 'active';
     
-            const response = await axios.put(`http://localhost:8000/products/status`, {
+            const response = await axios.put(`http://95.217.82.119:8000/products/status`, {
                 nmId: nmId,
                 status: newStatus,
             }, {
