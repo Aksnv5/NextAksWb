@@ -22,7 +22,7 @@ const ProtectedRoute = ({ element }) => {
 
 const App = () => {
     return (
-        <Router>
+        <Router basename='/NextAksWb'>
             <Routes>
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
