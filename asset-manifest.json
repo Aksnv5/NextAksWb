@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NextAksWb/static/css/main.da3e3896.css",
+    "main.js": "/NextAksWb/static/js/main.9bcb329d.js",
+    "static/js/453.d1f6603d.chunk.js": "/NextAksWb/static/js/453.d1f6603d.chunk.js",
+    "static/media/nextaks.svg": "/NextAksWb/static/media/nextaks.54ab98514fb2c6b561f4842bcdd90989.svg",
+    "static/media/icon-main.svg": "/NextAksWb/static/media/icon-main.57c6f2a04b9da8e8a4e947f0d3b08c28.svg",
+    "static/media/icon-user.svg": "/NextAksWb/static/media/icon-user.87c7eadbb7fd9a42a958f20dad8f8a95.svg",
+    "static/media/icon-contact.svg": "/NextAksWb/static/media/icon-contact.865feb7897afac465c87b70d98722600.svg",
+    "static/media/icon-warehouse.svg": "/NextAksWb/static/media/icon-warehouse.ede37914451b7c1cbaf5c6307952d107.svg",
+    "static/media/icon-position.svg": "/NextAksWb/static/media/icon-position.f7320d94d5845df30cec476d606ba241.svg",
+    "static/media/icons-reprice.svg": "/NextAksWb/static/media/icons-reprice.222ccbd50976dcd408b2e10770829298.svg",
+    "static/media/icon-setting.svg": "/NextAksWb/static/media/icon-setting.837abea937dd613155a078b046b675f0.svg",
+    "index.html": "/NextAksWb/index.html",
+    "main.da3e3896.css.map": "/NextAksWb/static/css/main.da3e3896.css.map",
+    "main.9bcb329d.js.map": "/NextAksWb/static/js/main.9bcb329d.js.map",
+    "453.d1f6603d.chunk.js.map": "/NextAksWb/static/js/453.d1f6603d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3e3896.css",
+    "static/js/main.9bcb329d.js"
+  ]
+}
